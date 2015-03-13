@@ -24,4 +24,6 @@ For the curious, these are the configs/scripts that make torstorm possible:
 
 [tor](https://www.torproject.org/) - We use a basic tor setup for torstorm. SOCKS server listens on localhost.
 
+[cert.key](https://github.com/cryptostorm/torstorm/blob/master/cert.key) - something to do with nginx, we're not sure.
+
 `NOTE: An SSL wildcard certificate was required to get HTTPS to work for .onion links accessed through torstorm.org`
