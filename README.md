@@ -2,7 +2,7 @@
 
 torstorm is a free service provided by cryptostorm that provides access to .onion sites without requiring Tor browser, similar to what [Tor2web](https://tor2web.org/) offers.
 
-Note to cryptostorm members: Thanks to our [DeepDNS](http://deepdns.net/) setup, cryptostorm members can go directly to any .onion (or .i2p) site without torstorm.
+`Note to cryptostorm members: Thanks to our [DeepDNS](http://deepdns.net/) setup, cryptostorm members can go directly to any .onion (or .i2p) site without torstorm.`
 
 ### Usage
 
@@ -24,4 +24,4 @@ For the curious, these are the configs/scripts that make torstorm possible:
 
 [tor](https://www.torproject.org/) - We use a basic tor setup for torstorm. SOCKS server listens on localhost.
 
-NOTE: An SSL wildcard certificate was required to get HTTPS to work for .onion links accessed through torstorm.org
+`NOTE: An SSL wildcard certificate was required to get HTTPS to work for .onion links accessed through torstorm.org`
