@@ -16,7 +16,7 @@ For the curious, these are the configs/scripts that make torstorm possible:
 
 [nginx.conf](https://github.com/cryptostorm/torstorm/blob/master/nginx.conf) - The nginx config file that handles the initial requests. Has a basic setup block for the main torstorm website, plus another block that handles .onion requests and forwards to onion2web.lua. Also includes the useless (but neat) feature of randomly changing the webserver banner version for every request, just to mess with web vuln scanners.
 
-[onion2web.lua](https://github.com/cryptostorm/torstorm/blob/master/onion2web.lua) - The lua script that nginx calls for .onion requests. The purpose of onion2web.lua is to replace all .onion links with .torstorm.org, and also to forward those requests to the tor SOCKS server running on 127.0.0.1:9050. It's the same code that's at https://github.com/starius/onion2web/blob/master/onion2web.lua except that ours also includes a bit that tries to remove any STUN/WebRTC javascript code that might be trying to leak your real IP. 
+[onion2web.lua](https://github.com/cryptostorm/torstorm/blob/master/onion2web.lua) - The lua script that nginx calls for .onion requests. The purpose of onion2web.lua is to replace all .onion links with .torstorm.org, and also to forward those requests to the tor SOCKS server running on 127.0.0.1:9050. It's the same code that's at https://github.com/starius/onion2web/blob/master/onion2web.lua except that our onion2web.lua also includes a bit that tries to remove any STUN/WebRTC javascript code that might be trying to leak your real IP. 
 
 [socks5.lua](https://github.com/cryptostorm/torstorm/blob/master/socks5.lua) - required by onion2web.lua for SOCKS.
 
