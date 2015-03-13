@@ -2,7 +2,7 @@
 
 torstorm is a free service provided by cryptostorm that provides access to .onion sites without requiring Tor browser, similar to what [Tor2web](https://tor2web.org/) offers.
 
-`Note to cryptostorm members: Thanks to our [DeepDNS](http://deepdns.net/) setup, cryptostorm members can go directly to any .onion (or .i2p) site without torstorm.`
+`Note to cryptostorm members: Thanks to our `[DeepDNS](http://deepdns.net/)` setup, cryptostorm members can go directly to any .onion (or .i2p) site without torstorm.`
 
 ### Usage
 
