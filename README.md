@@ -6,7 +6,7 @@ torstorm is a free service provided by cryptostorm that provides access to .onio
 
 ### Usage
 
-To use the torstorm service, simply replace the `.onion` part of a `.onion` URL with `.torstorm.org`. Once you're on that .onion page, and further .onion links will be automatically replaced with .torstorm.org.
+To use the torstorm service, simply replace the `.onion` part of a `.onion` URL with `.torstorm.org`. Once you're on that .onion page, any further .onion links will be automatically replaced with .torstorm.org.
 
 For example:  
 https://3g2upl4pq6kufc4m.torstorm.org/  
