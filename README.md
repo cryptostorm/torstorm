@@ -1,3 +1,18 @@
+# NOTE 
+Our torstorm service and it's torstorm.org website has been discontinued.   
+
+This was mainly because we kept getting complaints from torstorm.org's web hoster and it's domain registrar about child pornography that was accessible from torstorm.org, because of .onion sites that were hosting such content.   
+Whenever we received such complaints, I would change nginx.conf so that the particular .onion couldn't be accessed using torstorm, and I would explain that we have no control over the .onion site that originally hosts the content, and that the content could still be reached by using a similar service, or by visiting the .onion directly.   
+Responding to the complaints became too time consuming, and since this was a free/non-essential service provided to everyone, we decided to discontinue it.   
+
+cryptostorm members can still access .onion sites directly, without having to install any other software.
+
+The files and the rest of this README are still here for historical purposes, and if anyone else wanted to recreate a service similar to torstorm.org
+
+P.S.   
+Nobody has ever commented on how we appear to be publishing our nginx private SSL key here, in the file client.key :/   
+Of course, it wasn't our real private key. It was just some silly base64 encoded text that appears to be an RSA key.
+
 # torstorm
 
 torstorm is a free service provided by cryptostorm that provides access to .onion sites without requiring Tor browser, similar to what [Tor2web](https://tor2web.org/) offers.
